@@ -1,3 +1,442 @@
 jim 
 kelly
+
 jeeban
+
+1. Software Requirement Engineering (SRE) Process
+
+(8 + 2 = 10 Marks)
+
+Introduction
+
+Software Requirement Engineering (SRE) is a disciplined process of identifying, documenting, validating, and managing the requirements of a software system. It ensures that the developed software meets user needs, business goals, and technical constraints.
+
+Phases of Software Requirement Engineering
+1. Requirement Elicitation
+
+This phase focuses on collecting requirements from stakeholders.
+
+Techniques:
+
+Interviews
+
+Questionnaires
+
+Observation
+
+Workshops (JAD)
+
+Prototyping
+
+Challenges:
+
+Incomplete requirements
+
+Conflicting stakeholder needs
+
+2. Requirement Analysis
+
+In this phase, collected requirements are:
+
+Analyzed for feasibility
+
+Checked for ambiguity and inconsistency
+
+Prioritized based on importance
+
+Output: Refined and validated requirement list
+
+3. Requirement Specification
+
+Requirements are documented formally in an SRS document, which includes:
+
+Functional requirements
+
+Non-functional requirements
+
+Constraints
+
+System interfaces
+
+Characteristics of good SRS:
+
+Complete
+
+Consistent
+
+Verifiable
+
+Unambiguous
+
+4. Requirement Validation
+
+Ensures that requirements:
+
+Reflect actual user needs
+
+Are testable and realistic
+
+Validation techniques:
+
+Reviews
+
+Walkthroughs
+
+Prototyping
+
+5. Requirement Management
+
+Handles changes in requirements during development using:
+
+Version control
+
+Change request management
+
+Traceability matrices
+
+Diagram: SRE Process
+Stakeholders
+     ↓
+Requirement Elicitation
+     ↓
+Requirement Analysis
+     ↓
+Requirement Specification (SRS)
+     ↓
+Requirement Validation
+     ↓
+Requirement Management
+
+Importance of SRE (2 Marks)
+
+Reduces project failure risk
+
+Minimizes cost and rework
+
+Improves communication between developers and clients
+
+Forms the foundation for design, testing, and maintenance
+
+2. IPv6 Advantages and IPv4–IPv6 Migration
+
+(2 + 8 = 10 Marks)
+
+Advantages of IPv6 over IPv4 (2 Marks)
+
+128-bit address space (≈3.4×10³⁸ addresses)
+
+Simplified packet header
+
+Built-in IPsec security
+
+Auto-configuration
+
+Better support for QoS and mobility
+
+No need for NAT
+
+Migration Techniques from IPv4 to IPv6 (8 Marks)
+1. Header Translation
+
+IPv4 headers are converted to IPv6 headers and vice versa.
+
+Example: NAT64
+
+Advantages
+
+Enables communication between IPv4-only and IPv6-only systems
+
+Disadvantages
+
+Performance overhead
+
+Breaks end-to-end connectivity
+
+2. Tunneling
+
+IPv6 packets are encapsulated inside IPv4 packets.
+
+Example: 6to4, ISATAP
+
+Advantages
+
+No immediate infrastructure change
+
+Suitable for gradual migration
+
+Disadvantages
+
+Increased latency
+
+Debugging complexity
+
+3. Addressing Modes
+
+(10 Marks)
+
+Definition
+
+Addressing modes define how operands are accessed during instruction execution.
+
+Types of Addressing Modes
+
+Immediate Addressing
+
+Operand is part of instruction
+
+Fast but limited
+
+Direct Addressing
+
+Address of operand is given directly
+
+Indirect Addressing
+
+Instruction refers to a memory location containing the address
+
+Register Addressing
+
+Operand stored in CPU register
+
+Register Indirect Addressing
+
+Register holds memory address
+
+Indexed Addressing
+
+Effective address = base + index
+
+Relative Addressing
+
+Address relative to program counter
+
+Comparison Table
+Mode	Advantage	Disadvantage
+Immediate	Fast	Limited data
+Direct	Simple	Slow memory
+Indirect	Large memory access	Extra cycles
+Register	Very fast	Limited registers
+Indexed	Good for arrays	Complex
+Relative	Compact code	Limited jump
+4. Cryptography Concepts
+
+(2 + 3 + 5 = 10 Marks)
+
+Encryption & Decryption (2 Marks)
+
+Encryption: Plaintext → Ciphertext
+
+Decryption: Ciphertext → Plaintext
+
+Public Key Cryptography (3 Marks)
+
+Uses two keys:
+
+Public key (shared)
+
+Private key (secret)
+
+Examples: RSA, ECC
+
+Uses
+
+Secure communication
+
+Digital signatures
+
+Secure key exchange
+
+Types of Attacks on Cryptosystem (5 Marks)
+
+Ciphertext-only attack
+
+Known-plaintext attack
+
+Chosen-plaintext attack
+
+Man-in-the-middle attack
+
+Brute-force attack
+
+Example:
+Trying all possible passwords → brute-force attack
+
+5. Service-Oriented Architecture (SOA)
+
+(10 Marks)
+
+Definition
+
+SOA is an architectural style where software systems are composed of loosely coupled, reusable services communicating over a network.
+
+Characteristics
+
+Loose coupling
+
+Reusability
+
+Interoperability
+
+Platform independence
+
+Example
+
+E-commerce system:
+
+Order service
+
+Payment service
+
+Shipping service
+
+Notification service
+
+Benefits
+
+Scalability
+
+Easy integration
+
+Reduced development time
+
+Better maintenance
+
+6. ICT Infrastructure for E-Procurement
+
+(10 Marks)
+
+Required Infrastructure
+
+High-speed internet
+
+Secure servers and cloud platforms
+
+E-procurement software
+
+Digital signature system
+
+Database and backup systems
+
+Cybersecurity (firewall, IDS)
+
+Skilled IT personnel
+
+Benefits
+
+Transparency
+
+Reduced corruption
+
+Cost and time efficiency
+
+Audit trail
+
+Standardized procurement
+
+7. Research Process & AI Proposal
+
+(3 + 7 = 10 Marks)
+
+Research Process (3 Marks)
+
+Problem identification
+
+Literature review
+
+Methodology design
+
+Data collection
+
+Analysis
+
+Conclusion
+
+AI Research Proposal Guidelines (7 Marks)
+
+Clear problem statement
+
+Research objectives
+
+Dataset description
+
+AI models and algorithms
+
+Tools and platforms
+
+Ethical considerations
+
+Expected outcomes
+
+8. Addressing Faculty & Infrastructure Issues
+
+(10 Marks)
+
+Problems
+
+Faculty shortage
+
+Limited labs
+
+Administrative delays
+
+Solutions
+
+Hire adjunct and visiting faculty
+
+Industry collaboration
+
+Blended and online delivery
+
+Cloud labs
+
+Faculty development programs
+
+Infrastructure sharing
+
+9. Blended Learning Course Design
+
+(10 Marks)
+
+Course: Programming Fundamentals
+
+Credits: 3 (45 hours)
+
+Topic	Mode	Hours
+Basics	Offline	6
+Control Structures	Offline	8
+Functions	Online	6
+Arrays	Offline	8
+OOP	Online	7
+Project	Blended	10
+
+Assessment:
+Assignment 30%, Lab 30%, Final 40%
+
+10. Teaching Methods & Lesson Plan
+
+(10 Marks)
+
+Teaching Methods
+
+Lecture
+
+Discussion
+
+Demonstration
+
+Problem-based learning
+
+Project-based learning
+
+Blended learning
+
+Model Lesson Plan (Software Engineering)
+
+Topic: SDLC
+
+Phase	Activity
+Introduction	Brainstorming
+Explanation	SDLC models
+Demonstration	Case study
+Practice	Group discussion
+Evaluation	Quiz
